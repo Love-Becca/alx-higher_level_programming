@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdlib.h>
 
 /**
  * check-cycle - check if a linked list contains a cycle
@@ -21,4 +22,5 @@ int check_cycle(listint_t *list){
 		if (slow == fast)
 			return (1);
 	}
+	return (0);
 }
