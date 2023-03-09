@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
-    import sys
-    arguments = sys.argv
+    from sys import argv
+    arguments = argv
     sum = 0
     if len(arguments) == 1:
         print("{}".format(sum))
