@@ -4,7 +4,7 @@ if __name__ == "__main__":
         arguments = sys.argv
         sum = 0
         if len(arguments) == 1:
-            print("{}".format(len(arguments) - 1))
+            print("{}".format(sum))
         else:
             for i in range(1, len(arguments)):
                 sum = sum + int(arguments[i])
